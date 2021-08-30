@@ -1,0 +1,100 @@
+#header {
+  background-color: black;
+}
+
+.title {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 130px;
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+.title-left {
+  float: left;
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 20%;
+}
+.center {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+a:hover {
+  color: #6495ed;
+}
+.ad_logout {
+  margin-left: 1000px;
+  margin-top: -40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title-right {
+  float: right;
+  width: 30%;
+}
+.content {
+  width: 100%;
+  height: 800px;
+  background-color: #f8f8ff;
+}
+.content-left {
+  background-color: black;
+  width: 23%;
+  height: 800px;
+  float: left;
+}
+.content-right {
+  float: right;
+}
+ul li {
+  list-style: none;
+}
+.dropdown-item:active {
+  text-decoration: none;
+  background-color: #6495ed;
+}
+.row {
+  margin-left: 500px;
+  margin-top: -150px;
+}
+.nav-item {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.nav-item1 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.nav-item1 i {
+  font-size: 18px;
+  margin-left: 15px;
+}
+.nav-item1 i:hover {
+  color: #6495ed;
+}
+.nav-item1 a:hover {
+  color: #6495ed;
+}
+.dropdown-menu a:hover {
+  color: #6495ed;
+}
+.fa{
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  
+}
+/*Nội dung*/
+.content-right {
+  width: 75%;
+}
+.content-right h1 {
+  color: #6495ed;
+  margin-left: 30%;
+  margin-top: 10%;
+}

@@ -1,0 +1,281 @@
+/* 
+    Loan Hoang
+
+*/
+
+/* CSS for ALL */
+* {
+  margin: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0;
+}
+
+/* .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+   
+} */
+.img-reponsive {
+  width: 100%;
+}
+
+/* CSS for CONTACT */
+.container-fluid {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.nav-item1:hover {
+  color: #cc3333;
+  text-decoration: none;
+}
+
+ul li a {
+  color: white;
+}
+.dc {
+  color: white;
+  font-size: 12px;
+}
+/* CSS ... */
+.logo {
+  width: 20%;
+  float: left;
+}
+.nav-item {
+  font-size: 14px;
+  font: optional;
+  font-weight: bold;
+  list-style-type: none;
+  display: inline;
+  margin-top: 10px;
+}
+.nav-link {
+  color: blue;
+}
+.top_cart_wrap {
+  color: #11418b;
+  text-decoration: none;
+  background-color: yellow;
+  border: 1px solid black;
+}
+.icon {
+  width: 40px;
+}
+.sub_banner_wrap {
+  background-color: teal;
+  height: 60px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.dropdown-menu,
+li,
+a {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+.sub_banner_wrap > .sub_banner_hdg {
+  margin-top: 200px;
+}
+.carousel-item > .img {
+  width: 20px;
+  height: 20px;
+}
+
+/* CSS Khóa học */
+h3 {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 1.2;
+  font-size: 28px;
+}
+.heading1 h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.heading1 {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 0 15px;
+}
+p {
+  letter-spacing: 0.2px;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  color: #333;
+  font-size: 16px;
+}
+.h5 {
+  font-size: 14px;
+}
+.card-body h5 > a:hover {
+  color: #cc3333;
+}
+/* CSS Lịch khai giảng */
+.row:before {
+  display: table;
+  content: " ";
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.ct_heading_1_wrap span:before {
+  left: -100px;
+}
+.ct_heading_1_wrap span::after {
+  right: -100px;
+}
+.ct_heading_1_wrap span:before,
+.ct_heading_1_wrap span:after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #333;
+  top: 10px;
+}
+.ct_heading_1_wrap span {
+  display: inline-block;
+  position: relative;
+}
+.ct_heading_1_wrap h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.lichhoc {
+  background: #f7f7f7;
+}
+.ct_heading_1_wrap {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 0 15px;
+}
+
+.lichhoc .item1 {
+  border: 1px #ddd solid;
+  border-bottom: none;
+
+  font-weight: bold;
+}
+
+.lichhoc .item > div {
+  padding: 5px;
+  min-height: 30px;
+  background: #fff;
+}
+
+.item1 {
+  float: left;
+}
+.pad0 {
+  padding: 0;
+}
+.title {
+  width: 100%;
+}
+/* GIỚI THIỆU  */
+.get-started h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.gioithieu,
+li {
+  list-style-type: none;
+  margin-left: -15px;
+}
+/*  CSS GIẢNG VIÊN  */
+.get_icon_des h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* CẢM NHẬN */
+
+/* SỰ KIỆN */
+.card-title:hover {
+  color: #cc3333;
+}
+.card-title {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.new-img i {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+/* ĐĂNG KÝ TƯ VẤN */
+.page-intro-regiser button:hover,
+.page-intro-regiser button:focus {
+  color: #fff;
+  background-color: #ffb64b;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #ffb64b;
+}
+/* CSS THÔNG TIN HỌC BỔNG */
+.newletter_des {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+.newletter_des h5 {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+/* footer */
+.footer2 h5 {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.footer3 h5 {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.consultant-register-button {
+  outline: none;
+  background: #ff0;
+  width: 150px;
+  height: 50px;
+}
+
+.FOOTER {
+  background: #3a3a3a;
+  padding: 50px 0px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.debug {
+  border: 1px solid #3a3a3a;
+}
+
